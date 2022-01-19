@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should change button text to loading 1`] = `
+<div>
+  <form
+    class="login_form"
+  >
+    <input
+      aria-label="Username"
+      placeholder="Username"
+      type="text"
+      value="nico"
+    />
+    <input
+      aria-label="Password"
+      placeholder="Password"
+      role="textbox"
+      type="password"
+      value="pass"
+    />
+    <button
+      disabled=""
+      title=""
+      type="submit"
+    >
+      Loading
+    </button>
+  </form>
+</div>
+`;
+
+exports[`Should have login button disabled and show error tooltip when no password 1`] = `
+<div>
+  <form
+    class="login_form"
+  >
+    <input
+      aria-label="Username"
+      placeholder="Username"
+      type="text"
+      value="nico"
+    />
+    <input
+      aria-label="Password"
+      placeholder="Password"
+      role="textbox"
+      type="password"
+      value=""
+    />
+    <button
+      disabled=""
+      title="Password is missing. "
+      type="submit"
+    >
+      Login
+    </button>
+  </form>
+</div>
+`;
+
+exports[`Should have login button disabled and show error tooltip when no username 1`] = `
+<div>
+  <form
+    class="login_form"
+  >
+    <input
+      aria-label="Username"
+      placeholder="Username"
+      type="text"
+      value=""
+    />
+    <input
+      aria-label="Password"
+      placeholder="Password"
+      role="textbox"
+      type="password"
+      value="contra"
+    />
+    <button
+      disabled=""
+      title="Username is missing. "
+      type="submit"
+    >
+      Login
+    </button>
+  </form>
+</div>
+`;
+
+exports[`Should have login button disabled and show error tooltip when no username and password 1`] = `
+<div>
+  <form
+    class="login_form"
+  >
+    <input
+      aria-label="Username"
+      placeholder="Username"
+      type="text"
+      value=""
+    />
+    <input
+      aria-label="Password"
+      placeholder="Password"
+      role="textbox"
+      type="password"
+      value=""
+    />
+    <button
+      disabled=""
+      title="Username is missing. Password is missing. "
+      type="submit"
+    >
+      Login
+    </button>
+  </form>
+</div>
+`;
+
+exports[`Should have login button enabled and show no tooltip 1`] = `
+<div>
+  <form
+    class="login_form"
+  >
+    <input
+      aria-label="Username"
+      placeholder="Username"
+      type="text"
+      value="nico"
+    />
+    <input
+      aria-label="Password"
+      placeholder="Password"
+      role="textbox"
+      type="password"
+      value="pass"
+    />
+    <button
+      title=""
+      type="submit"
+    >
+      Login
+    </button>
+  </form>
+</div>
+`;
